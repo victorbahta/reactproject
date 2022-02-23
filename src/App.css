@@ -1,0 +1,10 @@
+.header-div {
+    background-color: blue !important;
+    padding: 100px;
+    margin: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.row-header {
+    text-align: center;
+}

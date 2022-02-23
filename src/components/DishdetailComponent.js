@@ -12,7 +12,7 @@ class DishdetailComponent extends Component {
     super(props);
   }
   renderDish(dish) {
-
+      console.log("Warup");
     if (dish != null) {
       return (
         <Card>

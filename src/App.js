@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Component } from 'react';
 
@@ -9,9 +10,11 @@ class App extends Component {
   }
   render () {
   return (
-      <section>
-        <Main />
-      </section>
+    <BrowserRouter>
+    <div>
+      <Main />
+    </div>
+    </BrowserRouter>
   );
 }
 
